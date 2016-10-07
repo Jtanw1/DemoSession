@@ -1,0 +1,194 @@
+
+Here are some options for making your payment 
+
+----------------------------------------------------------------------
+
+Capital One 
+the card in your corner®
+
+Account Number
+* * * *   * * * *   * * * * <%user.customattribute.acct_no_last_4%>
+Find out more about safety & security below
+
+----------------------------------------------------------------------
+
+YOUR NEXT PAYMENT IS DUE SOON
+
+----------------------------------------------------------------------
+
+Dear <%user.firstname%>
+
+We're just dropping you a line to remind you that your next minimum 
+payment of £<%user.customattribute.cstm_curr_1%> is due by <%user.customattribute.cstm_char_1%>. It's a good idea to make the 
+payment as soon as you can. That way you won't miss the due date by 
+mistake and end up being charged a late fee.
+
+----------------------------------------------------------------------
+
+AMOUNT DUE BY
+<%user.customattribute.cstm_char_1%>
+£<%user.customattribute.cstm_curr_1%>
+
+Pay Now >>
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPR1'))}" %>http://www.capitalone.co.uk/youraccount/index.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>http://www.capitalone.co.uk/youraccount/index.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP1'))}" %>https://www.capitalone.co.uk/payments/secure/emailpay?ref=<%user.customattribute.cstm_char_9%><%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>https://www.capitalone.co.uk/payments/secure/emailpay?ref=<%user.customattribute.cstm_char_9%><%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP1'))}" %>
+
+Access your online payment page quickly and easily through this email 
+for 7 days. If you've recently paid then please ignore this message<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>
+
+Access your online payment page quickly and easily through this email 
+for 7 days. If you've recently paid then please ignore this message
+<%/InsertIf%>
+----------------------------------------------------------------------
+
+Easy ways To Pay
+
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPR1'))}" %>Some really quick and easy ways of paying are by signing in to your 
+online account or by using our mobile app.
+http://www.capitalone.co.uk/youraccount/index.jsf
+http://www.capitalone.co.uk/benefits/mobile-app.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>Some really quick and easy ways of paying are by signing in to your 
+online account or by using our mobile app.
+http://www.capitalone.co.uk/youraccount/index.jsf
+http://www.capitalone.co.uk/benefits/mobile-app.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP1'))}" %>The quickest and easiest way to pay is through your secure personal payment 
+page. You can also pay using our mobile app.
+https://www.capitalone.co.uk/payments/secure/emailpay?ref=char_9
+http://www.capitalone.co.uk/benefits/mobile-app.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>The quickest and easiest way to pay is through your secure personal payment 
+page. You can also pay using our mobile app.
+https://www.capitalone.co.uk/payments/secure/emailpay?ref=char_9
+http://www.capitalone.co.uk/benefits/mobile-app.jsf<%/InsertIf%>
+
+Remember, if you're able to pay more than the £<%user.customattribute.cstm_curr_1%> minimum, then you can 
+reduce the interest you pay and clear your balance quicker. Around 7 out of 10 
+customers are doing exactly that.
+
+Once you've made this payment you can make sure your future payments 
+are made on time automatically by setting up a Direct Debit.
+http://www.capitalone.co.uk/youraccount/index.jsf
+
+Need help?
+
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPR1'))}" %>If you're having difficulty paying or have any other questions, 
+visit our website for more information and the best way to get in touch.
+http://www.capitalone.co.uk/creditmadeclearer/problems-paying.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>If you're having difficulty paying or have any other questions call us 
+on 0333 000 4325, or visit our website for more information and the best 
+way to get in touch. For free, independent advice you can also contact 
+any of the organisations listed below.
+http://www.capitalone.co.uk/creditmadeclearer/problems-paying.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP1'))}" %>If you're having difficulty paying or have any other questions, 
+visit our website for more information and the best way to get in touch.
+http://www.capitalone.co.uk/creditmadeclearer/problems-paying.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>If you're having difficulty paying or have any other questions call us on 
+0333 000 4325, or visit our website for more information and the best way to get 
+in touch. For free, independent advice you can also contact any of the 
+organisations listed below.
+http://www.capitalone.co.uk/creditmadeclearer/problems-paying.jsf<%/InsertIf%>
+
+Thanks for being a Capital One customer.
+
+Richard Rolls
+Head of Customer Service
+
+----------------------------------------------------------------------
+
+OTHER WAYS TO PAY 
+
+Pay on the go with our mobile app
+Download now >>
+http://www.capitalone.co.uk/benefits/mobile-app.jsf
+
+Make your future payments easier
+Set up a Direct Debit >>
+http://www.capitalone.co.uk/youraccount/index.jsf
+
+Pay Now >>
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPR1'))}" %>http://www.capitalone.co.uk/youraccount/index.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>http://www.capitalone.co.uk/youraccount/index.jsf<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP1'))}" %>https://www.capitalone.co.uk/payments/secure/emailpay?ref=<%user.customattribute.cstm_char_9%><%/InsertIf%> <%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>https://www.capitalone.co.uk/payments/secure/emailpay?ref=<%user.customattribute.cstm_char_9%><%/InsertIf%>
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>
+
+----------------------------------------------------------------------
+
+FOR FREE, INDEPENDENT ADVICE, CONTACT THESE NON-PROFIT ORGANISATIONS
+
+Step Change Debt Charity
+Freephone 0800 138 1111
+http://www.stepchange.org
+
+Citizens Advice Bureau
+Find your local branch at:
+http://www.citizensadvice.co.uk/
+
+PayPlan
+Freephone 0800 917 7823
+https://www.payplan.com<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>
+
+----------------------------------------------------------------------
+
+FOR FREE, INDEPENDENT ADVICE, CONTACT THESE NON-PROFIT ORGANISATIONS
+Step Change Debt Charity
+Freephone 0800 138 1111
+http://www.stepchange.org
+
+Citizens Advice Bureau
+Find your local branch at:
+http://www.citizensadvice.co.uk/
+
+PayPlan
+Freephone 0800 917 7823
+https://www.payplan.com<%/InsertIf%>
+
+----------------------------------------------------------------------
+
+Contact Us
+http://www.capitalone.co.uk/support/contact-us.jsf
+
+Privacy Policy
+http://www.capitalone.co.uk/web/privacy-statement.jsf
+
+Security Centre
+http://www.capitalone.co.uk/support/safety-and-security.jsf
+
+Help Prevent Fraud
+http://www.capitalone.co.uk/creditmadeclearer/credit-card-fraud-prevention.jsf
+
+----------------------------------------------------------------------
+
+<%InsertIf expression="${((user.customattribute.offer_code=='DOPP2'))}" %>Calls may be recorded/monitored for training purposes.
+
+<%/InsertIf%><%InsertIf expression="${((user.customattribute.offer_code=='DOPR2'))}" %>Calls may be recorded/monitored for training purposes.
+
+<%/InsertIf%>Please read – important information
+This email is from Capital One about your credit card with us.
+
+For added peace of mind our internet fraud protection includes anti-fraud 
+protection, monitoring, identity theft prevention and support.
+
+Please do not reply to this email. If you would like to contact us 
+please sign in to your account and send us a secure message using 
+our online account service or visit our website http://www.capitalone.co.uk/support/contact-us.jsf
+http://www.capitalone.co.uk/youraccount/index.jsf
+
+Safety and Security
+So you know that emails we send are genuinely from us, we will always 
+quote the last 4 digits of your account number. We will never ask for 
+personal details about you or your Capital One account via email. 
+If you get an email that seems to be from us but you're not sure 
+if it's genuine, please let us know straight away. You can also 
+visit the Capital One security centre for our latest security advice.
+http://www.capitalone.co.uk/support/safety-and-security.jsf
+
+To ensure you always receive service emails from us, please add 
+CustomerAccounts@capitaloneonline.co.uk, 
+CustomerAccounts@estatement.capitaloneonline.co.uk, 
+Customer.accounts@email.capitalone.co.uk and 
+CapitalOne@notification.capitalone.co.uk to your contacts list. 
+
+If you prefer not to receive these emails from Capital One you can 
+change your alert settings in your online account.
+http://www.capitalone.co.uk/youraccount/index.jsf
+
+®A registered mark of Capital One. 
+
+©Capital One. Capital One (Europe) plc: Registered Office Trent House, 
+Station Street, Nottingham, NG2 3HX. Registered in England and Wales. 
+Company Number: 3879023. Authorised and Regulated by the Financial 
+Conduct Authority.
+
+10000230/AA368/0316
+<%user.customattribute.offer_code%>
+ 
